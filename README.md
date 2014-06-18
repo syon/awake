@@ -6,5 +6,6 @@ I'm awakening in the new world
 ## RUNNING
 
 ```
-foreman start
+$ bundle exec middleman build
+$ foreman start
 ```
