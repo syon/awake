@@ -5,7 +5,14 @@ I'm awakening in the new world
 
 ## RUNNING
 
+develop on local
+
+```bash
+$ bundle exec middleman
 ```
-$ bundle exec middleman build
-$ foreman start
-```
+
+## Heroku
+
+0. rake (Rakefile) on precompile phase
+0. foreman (Procfile) for unicorn
+
