@@ -1,5 +1,3 @@
-// const webpack = require('webpack');
-
 module.exports = {
   context: __dirname + '/src',
 
@@ -30,6 +28,10 @@ module.exports = {
         query:{
           presets: ['es2015']
         }
+      },
+      {
+        test: /\.css$/,
+        loader: 'style-loader!css-loader'
       },
       {
         // https://github.com/webpack/file-loader
