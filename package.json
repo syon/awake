@@ -12,7 +12,8 @@
   },
   "homepage": "https://github.com/syon/awake",
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap-loader": "^1.3.1",
+    "bootstrap-sass": "^3.3.7"
   },
   "devDependencies": {
     "autoprefixer": "^6.5.3",
@@ -20,11 +21,17 @@
     "babel-loader": "^6.2.8",
     "babel-preset-es2015": "^6.18.0",
     "css-loader": "^0.26.1",
+    "exports-loader": "^0.6.3",
     "file-loader": "^0.9.0",
+    "imports-loader": "^0.6.5",
+    "jquery": "^3.1.1",
+    "node-sass": "^3.13.0",
     "postcss-loader": "^1.1.1",
     "postcss-nested": "^1.0.0",
     "postcss-simple-vars": "^3.0.0",
     "precss": "^1.4.0",
+    "resolve-url-loader": "^1.6.0",
+    "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.3",

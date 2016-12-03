@@ -1,7 +1,7 @@
 @import "partials/variables";
 
 body {
-  background: lemonchiffon;
+  background: $gray;
 }
 
 .example {
@@ -12,8 +12,7 @@ body {
 }
 
 #app {
-  p {
-    font-size: 32px;
+  h1 {
     color: $blue;
   }
 }

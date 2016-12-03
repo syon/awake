@@ -9,6 +9,8 @@ syon's front-end boilerplate.
 - PostCSS
   - Autoprefixer
   - PreCSS
+- Bootstrap
+- jQuery
 
 
 ## start dev

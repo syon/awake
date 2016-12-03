@@ -1,4 +1,4 @@
-import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-loader";
 import "./css/app.css"
 import a from "./awake.js";
 
