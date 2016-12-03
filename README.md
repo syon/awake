@@ -4,6 +4,8 @@ AWAKE
 syon's front-end boilerplate.
 
 - webpack
+  - webpack-dev-server
+  - source-map
 - Babel
   - ES2015
 - PostCSS
