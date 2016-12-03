@@ -1,3 +1,5 @@
+var autoprefixer = require('autoprefixer');
+
 module.exports = {
   context: __dirname + '/src',
 
@@ -31,7 +33,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader'
+        loader: 'style-loader!css-loader!postcss-loader'
       },
       {
         // https://github.com/webpack/file-loader
@@ -39,5 +41,9 @@ module.exports = {
         loader: 'file?name=[path][name].[ext]'
       }
     ]
+  },
+
+  postcss: function() {
+    return [autoprefixer({ browsers: ['IE 9', 'IE 10', 'IE 11', 'last 2 versions'] })];
   }
 };
