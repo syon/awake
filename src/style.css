@@ -1,5 +1,7 @@
+$blue: #056ef0;
+
 body {
-  background: yellow;
+  background: lemonchiffon;
 }
 
 .example {
@@ -11,6 +13,6 @@ body {
 
 #app {
   p {
-    color: red;
+    color: $blue;
   }
 }
