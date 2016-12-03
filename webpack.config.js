@@ -1,9 +1,10 @@
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+
 module.exports = {
   context: __dirname + '/src',
 
   entry: {
     javascript: './index.js',
-    html: './index.html'
   },
 
   output: {
@@ -33,17 +34,16 @@ module.exports = {
         test: /\.css$/,
         loader: 'style-loader!css-loader!postcss-loader'
       },
-      {
-        // https://github.com/webpack/file-loader
-        test: /\.html$/,
-        loader: 'file?name=[path][name].[ext]'
-      },
       // https://github.com/shakacode/bootstrap-loader#jquery
       { test: /bootstrap-sass[\/\\]assets[\/\\]javascripts[\/\\]/, loader: 'imports-loader?jQuery=jquery' },
       { test: /\.(woff2?|svg)$/, loader: 'url-loader?limit=10000' },
       { test: /\.(ttf|eot)$/, loader: 'file-loader' }
     ]
   },
+
+  plugins: [
+    new HtmlWebpackPlugin()
+  ],
 
   postcss: function() {
     var precss = require('precss');
