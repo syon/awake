@@ -34,6 +34,10 @@ module.exports = {
         test: /\.css$/,
         loader: 'style-loader!css-loader!postcss-loader'
       },
+      {
+        test: /\.pug$/,
+        loader: 'pug-loader'
+      },
       // https://github.com/shakacode/bootstrap-loader#jquery
       { test: /bootstrap-sass[\/\\]assets[\/\\]javascripts[\/\\]/, loader: 'imports-loader?jQuery=jquery' },
       { test: /\.(woff2?|svg)$/, loader: 'url-loader?limit=10000' },
@@ -42,7 +46,10 @@ module.exports = {
   },
 
   plugins: [
-    new HtmlWebpackPlugin()
+    new HtmlWebpackPlugin({
+      title: 'AWAKE',
+      template: 'index.pug'
+    })
   ],
 
   postcss: function() {
