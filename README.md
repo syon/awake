@@ -11,6 +11,7 @@ syon's front-end boilerplate.
   - PreCSS
 - Bootstrap
 - jQuery
+- Pug (Jade)
 
 
 ## start dev

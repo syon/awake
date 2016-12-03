@@ -1,10 +1,7 @@
-doctype html
-html
-  head
-    meta(charset='UTF-8')
-    title= htmlWebpackPlugin.options.title
-  body
-    #app
-      .container
-        h1.text-center= htmlWebpackPlugin.options.title
-        p#desc
+extends pug/root.pug
+
+block body
+  #app
+    .container
+      h1.text-center= htmlWebpackPlugin.options.title
+      p#desc
