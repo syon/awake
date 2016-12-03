@@ -1,3 +1,4 @@
+var postcss_nested = require('postcss-nested');
 var autoprefixer = require('autoprefixer');
 
 module.exports = {
@@ -44,6 +45,9 @@ module.exports = {
   },
 
   postcss: function() {
-    return [autoprefixer({ browsers: ['IE 9', 'IE 10', 'IE 11', 'last 2 versions'] })];
+    return [
+      postcss_nested,
+      autoprefixer({ browsers: ['IE 9', 'IE 10', 'IE 11', 'last 2 versions'] })
+    ];
   }
 };

@@ -1,3 +1,5 @@
 import "./style.css"
 import a from "./awake.js";
-document.write(a);
+
+let hello = document.getElementById('hello');
+hello.innerText = a;
