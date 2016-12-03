@@ -46,8 +46,11 @@ module.exports = {
   },
 
   postcss: function() {
+    // Needs webpack reload for change
+    // https://github.com/postcss/postcss-simple-vars#variables
+    var colors = require('./src/styles/colors');
     return [
-      postcss_simple_vars,
+      postcss_simple_vars({ variables: colors }),
       postcss_nested,
       autoprefixer({ browsers: ['IE 9', 'IE 10', 'IE 11', 'last 2 versions'] })
     ];
