@@ -11,6 +11,9 @@
     "url": "https://github.com/syon/awake.git"
   },
   "homepage": "https://github.com/syon/awake",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
   "devDependencies": {
     "autoprefixer": "^6.5.3",
     "babel-core": "^6.18.2",
@@ -23,6 +26,7 @@
     "postcss-simple-vars": "^3.0.0",
     "precss": "^1.4.0",
     "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
     "webpack": "^1.13.3",
     "webpack-dev-server": "^1.16.2"
   }
