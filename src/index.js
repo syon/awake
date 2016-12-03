@@ -1,4 +1,4 @@
-import "./styles/style.scss"
+import "./css/app.css"
 import a from "./awake.js";
 
 let hello = document.getElementById('hello');

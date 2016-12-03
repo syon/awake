@@ -1,3 +1,5 @@
+@import "partials/variables";
+
 body {
   background: lemonchiffon;
 }
@@ -11,6 +13,7 @@ body {
 
 #app {
   p {
+    font-size: 32px;
     color: $blue;
   }
 }

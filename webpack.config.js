@@ -1,7 +1,3 @@
-var postcss_simple_vars = require('postcss-simple-vars');
-var postcss_nested = require('postcss-nested');
-var autoprefixer = require('autoprefixer');
-
 module.exports = {
   context: __dirname + '/src',
 
@@ -34,7 +30,7 @@ module.exports = {
         }
       },
       {
-        test: /\.scss$/,
+        test: /\.css$/,
         loader: 'style-loader!css-loader!postcss-loader'
       },
       {
@@ -46,13 +42,11 @@ module.exports = {
   },
 
   postcss: function() {
-    // Needs webpack reload for change
-    // https://github.com/postcss/postcss-simple-vars#variables
-    var colors = require('./src/styles/colors');
+    var precss = require('precss');
+    var autoprefixer = require('autoprefixer');
     return [
-      postcss_simple_vars({ variables: colors }),
-      postcss_nested,
-      autoprefixer({ browsers: ['IE 9', 'IE 10', 'IE 11', 'last 2 versions'] })
+      autoprefixer({ browsers: ['IE 9', 'IE 10', 'IE 11', 'last 2 versions'] }),
+      precss
     ];
   }
 };
