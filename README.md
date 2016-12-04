@@ -4,16 +4,19 @@ AWAKE
 syon's front-end boilerplate.
 
 - webpack
-  - webpack-dev-server
-  - source-map
+  - `webpack-dev-server`
+    `source-map`
 - Babel
-  - ES2015
+  - `ES2015`
 - PostCSS
-  - Autoprefixer
-  - PreCSS
-- Bootstrap
-- jQuery
-- Pug (Jade)
+  - `Autoprefixer`
+    `PreCSS`
+- Style
+  - `Bootstrap`
+    `jQuery`
+    `Google Fonts`
+- Template
+  - `Pug (Jade)`
 
 
 ## start dev
