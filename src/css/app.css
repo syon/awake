@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Belleza');
 @import "partials/variables";
 
+html, body, #app {
+  height: 100%;
+}
+
 body {
-  background: $gray;
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
 }
 
 .example {
@@ -19,16 +26,23 @@ body {
     align-items: center;
   }
   .hero-icon {
-    font-size: 150px;
+    margin-top: 5vh;
+    font-size: 20vmax;
     line-height: 1;
+    color: $LogoColor;
   }
   h1 {
-    color: $blue;
-    margin-top: 0;
+    margin: 0;
     font-family: 'Belleza', sans-serif;
-    font-size: 75px;
+    font-size: 12vmax;
+    color: $LogoColor;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
   }
   #desc {
-    font-size: 18px;
+    padding: 0 1em;
+    font-size: 2.5vmax;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(0, 0, 0, 0.7);
   }
 }

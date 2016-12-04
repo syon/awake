@@ -42,7 +42,11 @@ module.exports = {
       // FontAwesome - https://gist.github.com/Turbo87/e8e941e68308d3b40ef6
       { test: /bootstrap-sass[\/\\]assets[\/\\]javascripts[\/\\]/, loader: 'imports-loader?jQuery=jquery' },
       { test: /\.(woff2?|svg)(\?v=\d+\.\d+\.\d+)?$/, loader: 'url-loader?limit=10000' },
-      { test: /\.(ttf|eot)(\?v=\d+\.\d+\.\d+)?$/, loader: 'file-loader' }
+      { test: /\.(ttf|eot)(\?v=\d+\.\d+\.\d+)?$/, loader: 'file-loader' },
+      {
+        test: /\.(jpg|png)$/,
+        loader: 'url-loader'
+      }
     ]
   },
 
