@@ -27,8 +27,8 @@ body {
   }
   .hero-icon {
     margin-top: 5vh;
-    margin-bottom: -20px;
-    font-size: 20vmax;
+    margin-bottom: -10px;
+    font-size: 18vmax;
     line-height: 1;
     color: $LogoColor;
   }
