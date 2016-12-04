@@ -6,6 +6,7 @@ syon's front-end boilerplate.
 - webpack
   - `webpack-dev-server`
     `source-map`
+    `html-webpack-plugin`
 - Babel
   - `ES2015`
 - PostCSS
