@@ -15,6 +15,7 @@ syon's front-end boilerplate.
   - `Bootstrap`
     `jQuery`
     `Google Fonts`
+    `FontAwesome`
 - Template
   - `Pug (Jade)`
 
