@@ -12,7 +12,21 @@ body {
 }
 
 #app {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-icon {
+    font-size: 150px;
+    line-height: 1;
+  }
   h1 {
     color: $blue;
+    margin-top: 0;
+    font-size: 75px;
+  }
+  #desc {
+    font-size: 18px;
   }
 }

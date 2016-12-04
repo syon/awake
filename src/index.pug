@@ -2,6 +2,8 @@ extends pug/root.pug
 
 block body
   #app
-    .container
-      h1.text-center= htmlWebpackPlugin.options.title
+    .hero
+      .hero-icon
+        i.fa.fa-angle-double-up
+      h1= htmlWebpackPlugin.options.title
       p#desc
