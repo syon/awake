@@ -27,6 +27,7 @@ body {
   }
   .hero-icon {
     margin-top: 5vh;
+    margin-bottom: -20px;
     font-size: 20vmax;
     line-height: 1;
     color: $LogoColor;
@@ -44,5 +45,9 @@ body {
     font-size: 2.5vmax;
     color: rgba(255, 255, 255, 0.3);
     background-color: rgba(0, 0, 0, 0.7);
+  }
+  .btn-group .btn {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-color: #aaa;
   }
 }

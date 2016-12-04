@@ -54,6 +54,14 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'AWAKE',
       template: 'index.pug'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'hello.html',
+      template: 'hello.pug'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'hoge.html',
+      template: 'hoge.pug'
     })
   ],
 
