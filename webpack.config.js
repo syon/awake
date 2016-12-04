@@ -60,8 +60,8 @@ module.exports = {
       template: 'hello.pug'
     }),
     new HtmlWebpackPlugin({
-      filename: 'hoge.html',
-      template: 'hoge.pug'
+      filename: 'world.html',
+      template: 'world.pug'
     })
   ],
 
