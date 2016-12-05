@@ -1,0 +1,13 @@
+extends pug/root.pug
+
+block body
+  #app
+    .hero
+      .hero-icon
+        i.fa.fa-diamond
+      h1= "HELLO"
+      p#desc
+      .btn-group(role="group")
+        a.btn.btn-default(href="/", role="button") AWAKE
+        a.btn.btn-default(href="/hello.html", role="button") HELLO
+        a.btn.btn-default(href="/hoge.html", role="button") WORLD
