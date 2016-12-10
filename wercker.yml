@@ -3,20 +3,18 @@ box: node
 build:
   steps:
     - npm-install
-
-deploy:
-  steps:
     - script:
         name: install git
         code: |
           apt-get update
           apt-get install git -y
-
     - script:
         name: webpack
         code: |
           npm run build
 
+deploy:
+  steps:
     - lukevivier/gh-pages:
         token: $GH_TOKEN
         basedir: www
