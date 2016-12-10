@@ -1,4 +1,4 @@
-AWAKE
+AWAKE [![wercker status](https://app.wercker.com/status/219b82bc57e438e29fe947f92a275fcc/s/master "wercker status")](https://app.wercker.com/project/byKey/219b82bc57e438e29fe947f92a275fcc)
 =====
 
 syon's front-end boilerplate.
