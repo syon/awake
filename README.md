@@ -33,3 +33,19 @@ $ npm start
 ```bash
 $ npm run build
 ```
+
+
+## deploy
+
+#### GitHub Pages
+wercker (wercker.yml)
+
+#### Heroku
+
+For using `$ webpack` command on postinstall:
+
+- https://devcenter.heroku.com/articles/nodejs-support#devdependencies
+
+```bash
+$ heroku config:set NPM_CONFIG_PRODUCTION=false
+```
