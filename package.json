@@ -2,7 +2,8 @@
   "name": "AWAKE",
   "scripts": {
     "start": "webpack-dev-server --inline",
-    "build": "webpack"
+    "build": "webpack",
+    "postinstall": "webpack"
   },
   "author": "syon",
   "license": "MIT",
