@@ -12,6 +12,6 @@
   "homepage": "https://github.com/syon/awake",
   "dependencies": {
     "serve": "~2.1.2",
-    "foreman": "^2.0.0"
+    "foreman": "~2.0.0"
   }
 }
