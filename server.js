@@ -14,7 +14,7 @@ if (user && pass) {
 
 app.use(logger('dev'));
 app.use(compression());
-app.use(express.static(__dirname + '/www'));
+app.use(express.static(__dirname + '/harp-src/www'));
 
 app.listen(app.get('port'), function() {
   console.log('Server listening on port %s', app.get('port'));

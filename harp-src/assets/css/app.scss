@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Belleza');
+@import "partials/variables";
+
+body {
+  h1 {
+    font-family: 'Belleza', sans-serif;
+    font-size: 72px;
+    color: $LogoColor;
+    font-kerning: normal;
+    text-rendering: optimizeLegibility;
+  }
+}

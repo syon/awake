@@ -9,7 +9,7 @@ build:
           apt-get update
           apt-get install git -y
     - script:
-        name: webpack
+        name: harp compile
         code: |
           npm run build
 
@@ -17,4 +17,4 @@ deploy:
   steps:
     - lukevivier/gh-pages:
         token: $GH_TOKEN
-        basedir: www
+        basedir: harp-src/www
