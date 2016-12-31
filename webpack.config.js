@@ -56,10 +56,12 @@ module.exports = {
       template: 'index.pug'
     }),
     new HtmlWebpackPlugin({
+      title: 'AWAKE - Hello',
       filename: 'hello.html',
       template: 'hello.pug'
     }),
     new HtmlWebpackPlugin({
+      title: 'AWAKE - World',
       filename: 'world.html',
       template: 'world.pug'
     })
