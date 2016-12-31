@@ -1,15 +1,9 @@
 {
   "name": "AWAKE",
+  "private": true,
   "scripts": {
     "start": "nf start"
   },
-  "author": "syon",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/syon/awake.git"
-  },
-  "homepage": "https://github.com/syon/awake",
   "dependencies": {
     "serve": "~2.1.2",
     "foreman": "~2.0.0"
