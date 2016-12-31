@@ -3,6 +3,11 @@ AWAKE [![wercker status](https://app.wercker.com/status/219b82bc57e438e29fe947f9
 
 syon's front-end boilerplate.
 
+| branch | with    | url    |
+|--------|---------|--------|
+| master | Webpack | https://github.com/syon/awake |
+| harp   | Harp    | https://github.com/syon/awake/tree/harp |
+
 - webpack
   - `webpack-dev-server`
     `source-map`
