@@ -10,31 +10,41 @@ syon's front-end boilerplate.
 | harp    | Harp    | https://github.com/syon/awake/tree/harp |
 
 
-## start dev
+## install
 
 ```bash
-$ npm start
+$ npm install
 ```
 
 
-## build
+## prepare
 
-```bash
-$ npm run build
-```
+add your static resources into `public` directory.
 
 
 ## deploy
 
-#### GitHub Pages
+### GitHub Pages
 wercker (wercker.yml)
 
-#### Heroku
-
-For using `$ webpack` command on postinstall:
-
-- https://devcenter.heroku.com/articles/nodejs-support#devdependencies
+### Heroku
 
 ```bash
-$ heroku config:set NPM_CONFIG_PRODUCTION=false
+$ git add -A
+$ git commit -am "commit message"
+$ heroku create your-site-name
+$ git push -u heroku master
+```
+
+#### Basic Auth
+
+Edit `Procfile` and add config on Heroku.
+
+```bash
+web: serve public --auth
+```
+
+```bash
+$ heroku config:set SERVE_USER username
+$ heroku config:set SERVE_PASSWORD password
 ```
