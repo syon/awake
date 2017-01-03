@@ -1,18 +1,12 @@
 {
   "name": "AWAKE",
+  "private": true,
   "scripts": {
     "start": "webpack -w -d",
     "build": "webpack",
     "foreman": "nf start",
     "postinstall": "webpack"
   },
-  "author": "syon",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/syon/awake.git"
-  },
-  "homepage": "https://github.com/syon/awake",
   "dependencies": {
     "bootstrap-loader": "^1.3.1",
     "bootstrap-sass": "^3.3.7",
