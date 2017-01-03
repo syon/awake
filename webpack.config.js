@@ -1,4 +1,6 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var webpack = require('webpack');
+var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
   context: __dirname + '/src',
@@ -51,6 +53,12 @@ module.exports = {
   },
 
   plugins: [
+    new webpack.optimize.OccurenceOrderPlugin(),
+    new webpack.optimize.DedupePlugin(),
+    new webpack.optimize.AggressiveMergingPlugin(),
+    new BrowserSyncPlugin({
+      server: { baseDir: ['./www'] }
+    }),
     new HtmlWebpackPlugin({
       title: 'AWAKE',
       template: 'index.pug'
