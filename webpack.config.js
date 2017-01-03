@@ -1,6 +1,6 @@
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var webpack = require('webpack');
-var BrowserSyncPlugin = require('browser-sync-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const webpack = require('webpack');
+const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 module.exports = {
   context: __dirname + '/src',
@@ -27,10 +27,7 @@ module.exports = {
         // https://github.com/babel/babel-loader
         test: /\.js$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        query:{
-          presets: ['es2015']
-        }
+        loader: 'babel-loader'
       },
       {
         test: /\.css$/,
