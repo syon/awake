@@ -1,6 +1,11 @@
-import "font-awesome/css/font-awesome.css";
-import "bootstrap-loader";
-import "./css/app.css"
-import awake from "./js/awake.js";
+/* @type */
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Main from './components/main.jsx';
 
-awake();
+import "./css/app.css"
+
+ReactDOM.render(
+  <Main message='and GoodBye World' date={new Date()} />,
+  document.getElementById('app')
+)
