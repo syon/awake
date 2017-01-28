@@ -4,6 +4,7 @@
   "scripts": {
     "start": "webpack -w -d",
     "build": "webpack",
+    "flow": "flow",
     "foreman": "nf start",
     "postinstall": "webpack"
   },
