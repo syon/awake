@@ -13,34 +13,27 @@ syon's front-end boilerplate.
 ## dependencies
 
 - webpack
-  - `webpack-dev-server`
+  - `browser-sync`
     `source-map`
-    `html-webpack-plugin`
 - Babel
   - `ES2015`
+  - `React`
 - PostCSS
   - `Autoprefixer`
     `PreCSS`
-- Style
-  - `Bootstrap`
-    `jQuery`
-    `Google Fonts`
-    `FontAwesome`
-- Template
-  - `Pug (Jade)`
 
 
 ## start dev
 
 ```bash
-$ npm start
+$ yarn start
 ```
 
 
 ## build
 
 ```bash
-$ npm run build
+$ yarn run build
 ```
 
 
