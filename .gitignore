@@ -1,4 +1,9 @@
-node_modules
+.DS_Store
+node_modules/
 npm-debug.log
-www/*
-!www/index.html
+yarn-error.log
+
+.env
+
+public/dist/
+!public/dist/index.html

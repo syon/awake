@@ -1,1 +1,1 @@
-web: serve www
+web: node express.js
