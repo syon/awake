@@ -59,6 +59,8 @@ export default {
   display: block;
   width: 100%;
   padding: 4px;
+  font-family: monospace;
+  font-size: 14px;
 }
 
 .rawdoc {
