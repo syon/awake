@@ -5,6 +5,12 @@ const adoc = require('asciidoctor.js')();
 const app = express();
 app.use(express.static('public'));
 
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
 var server = app.listen(process.env["PORT"], function(){
   console.log("Node.js is listening to PORT:" + server.address().port);
 });
