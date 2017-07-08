@@ -14,3 +14,11 @@ $ yarn
 ```bash
 $ npm run electron
 ```
+
+
+## packaging
+
+Run on Mac
+```bash
+$ npm run pack:mac
+```

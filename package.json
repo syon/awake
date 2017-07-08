@@ -4,13 +4,15 @@
   "private": true,
   "main": "main.js",
   "scripts": {
-    "electron": "electron ."
+    "electron": "electron .",
+    "pack:mac": "electron-packager . awake --platform=darwin --arch=x64"
   },
   "repository": "https://github.com/syon/awake.git",
   "author": "syon <syon.xiii@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "electron": "^1.6.11",
+    "electron-packager": "^8.7.2",
     "node-static": "^0.7.9"
   }
 }
