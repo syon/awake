@@ -4,7 +4,7 @@
   "private": true,
   "main": "main.js",
   "scripts": {
-    "electron": "electron .",
+    "start": "electron .",
     "pack:mac": "electron-packager . awake --platform=darwin --arch=x64",
     "pack:win": "electron-packager . awake --platform=win32 --arch=all"
   },
