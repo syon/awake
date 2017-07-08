@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Belleza);
+
+html, body, #app {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-image: url(./bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#app h1 {
+  font-size: 64px;
+  margin: 0;
+  font-family: 'Belleza', sans-serif;
+  font-size: 12vmax;
+  font-weight: 500;
+  line-height: 1.1;
+  color: rgba(0, 0, 0, 0.7);
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+#app .desc {
+  margin: 0 0 1em;
+  padding: 0 1em;
+  font-size: 2.5vmax;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#app a {
+  font-size: 2em;
+  background-color: rgba(255,255,255,0.5);
+  padding: .2em .6em;
+}
