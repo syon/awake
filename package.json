@@ -12,8 +12,10 @@
   "author": "syon <syon.xiii@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "electron": "^1.6.11",
-    "electron-packager": "^8.7.2",
     "node-static": "^0.7.9"
+  },
+  "devDependencies": {
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.2"
   }
 }
