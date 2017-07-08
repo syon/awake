@@ -29,5 +29,8 @@ app.on('ready', () => {
 
   mainWindow.loadURL(`http://localhost:${PORT}/index.html`);
 
-  mainWindow.on('closed', () => mainWindow = null );
+  mainWindow.on('closed', () => {
+    electron.session.defaultSession.clearCache(() => {});
+    mainWindow = null;
+  });
 });
