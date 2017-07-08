@@ -5,7 +5,7 @@ AWAKE (Electron)
 ## setup
 
 ```bash
-$ yarn
+$ npm install
 ```
 
 
