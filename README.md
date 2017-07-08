@@ -12,7 +12,7 @@ $ npm install
 ## run
 
 ```bash
-$ npm run electron
+$ npm start
 ```
 
 
@@ -21,4 +21,9 @@ $ npm run electron
 Run on Mac
 ```bash
 $ npm run pack:mac
+```
+
+Run on Windows
+```bash
+$ npm run pack:win
 ```
