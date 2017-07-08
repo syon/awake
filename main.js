@@ -1,25 +1,21 @@
 'use strict';
 
+const NodeStatic = require('node-static');
+const HTTP = require('http');
+const Electron = require("electron");
+
 const PORT = 7170;
 
-var nodeStatic = require('node-static');
-var file = new nodeStatic.Server(__dirname + '/public');
-
-require('http').createServer((request, response) => {
+const file = new NodeStatic.Server(__dirname + '/public');
+HTTP.createServer((request, response) => {
   request.addListener('end', () => {
     file.serve(request, response);
   }).resume();
 }).listen(PORT);
 
-const electron = require("electron");
-const app = electron.app;
-const BrowserWindow = electron.BrowserWindow;
-
 let mainWindow;
-
-app.on('window-all-closed', () => app.quit());
-app.on('ready', () => {
-  mainWindow = new BrowserWindow({
+Electron.app.on('ready', () => {
+  mainWindow = new Electron.BrowserWindow({
     width: 1000,
     height: 700,
     resizable: true,
@@ -34,3 +30,5 @@ app.on('ready', () => {
     mainWindow = null;
   });
 });
+
+Electron.app.on('window-all-closed', () => Electron.app.quit());
