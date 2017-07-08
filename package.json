@@ -1,0 +1,16 @@
+{
+  "name": "awake",
+  "version": "1.0.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "electron": "electron ."
+  },
+  "repository": "https://github.com/syon/awake.git",
+  "author": "syon <syon.xiii@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.6.11",
+    "node-static": "^0.7.9"
+  }
+}
