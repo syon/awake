@@ -5,7 +5,8 @@
   "main": "main.js",
   "scripts": {
     "electron": "electron .",
-    "pack:mac": "electron-packager . awake --platform=darwin --arch=x64"
+    "pack:mac": "electron-packager . awake --platform=darwin --arch=x64",
+    "pack:win": "electron-packager . awake --platform=win32 --arch=all"
   },
   "repository": "https://github.com/syon/awake.git",
   "author": "syon <syon.xiii@gmail.com>",
