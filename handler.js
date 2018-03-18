@@ -1,4 +1,4 @@
-module.exports.helloWorld = async (event, context, callback) => {
+export async function helloWorld (event, context, callback) {
   console.log("awaiting 5 seconds...");
   await new Promise(r => setTimeout(r, 5000));
   console.log("await done.");
