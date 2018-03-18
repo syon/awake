@@ -2,6 +2,7 @@ AWAKE :: Serverless
 ===================
 
 - [serverless-webpack](https://github.com/serverless-heaven/serverless-webpack)
+- [dotenv-webpack](https://github.com/mrsteele/dotenv-webpack)
 
 
 ## require
