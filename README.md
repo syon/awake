@@ -17,3 +17,10 @@ $ npm install -g serverless
 ```bash
 $ npm install
 ```
+
+
+## invoke
+
+```bash
+$ sls invoke local --function helloWorld
+```
