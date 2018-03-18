@@ -1,8 +1,7 @@
 {
   "name": "awake",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,15 +9,13 @@
     "type": "git",
     "url": "git+https://github.com/syon/awake.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "syon",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/syon/awake/issues"
   },
   "homepage": "https://github.com/syon/awake#readme",
   "devDependencies": {
-    "serverless": "^1.26.1",
     "serverless-webpack": "^5.1.0",
     "webpack": "^4.1.1"
   }
