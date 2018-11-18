@@ -2,10 +2,10 @@
   "name": "awake",
   "private": true,
   "scripts": {
-    "start": "nf start"
+    "start": "serve public"
   },
-  "dependencies": {
-    "serve": "~2.1.2",
-    "foreman": "~2.0.0"
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^10.1.1"
   }
 }

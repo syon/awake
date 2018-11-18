@@ -5,7 +5,8 @@ syon's static site boilerplate.
 
 | branch     | with       | url    |
 |------------|------------|--------|
-| master     | (blank)    | https://github.com/syon/awake |
+| master     | -          | https://github.com/syon/awake |
+| heroku     | -          | https://github.com/syon/awake/tree/heroku |
 | webpack    | Webpack    | https://github.com/syon/awake/tree/webpack |
 | harp       | Harp       | https://github.com/syon/awake/tree/harp |
 | electron   | Electron   | https://github.com/syon/awake/tree/electron |
@@ -19,6 +20,15 @@ $ npm install
 ```
 
 
+## dev
+
+```bash
+$ npm start
+```
+
+- http://localhost:5000
+
+
 ## prepare
 
 add your static resources into `public` directory.
@@ -26,27 +36,5 @@ add your static resources into `public` directory.
 
 ## deploy
 
-### GitHub Pages
-wercker (wercker.yml)
-
-### Heroku
-
-```bash
-$ git add -A
-$ git commit -am "commit message"
-$ heroku create your-site-name
-$ git push -u heroku master
-```
-
-#### Basic Auth
-
-Edit `Procfile` and add config on Heroku.
-
-```bash
-web: serve public --auth
-```
-
-```bash
-$ heroku config:set SERVE_USER username
-$ heroku config:set SERVE_PASSWORD password
-```
+- https://app.netlify.com/
+- New site from Git
