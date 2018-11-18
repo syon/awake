@@ -5,7 +5,8 @@ syon's static site boilerplate.
 
 | branch     | with       | url    |
 |------------|------------|--------|
-| master     | (blank)    | https://github.com/syon/awake |
+| master     | -          | https://github.com/syon/awake |
+| heroku     | -          | https://github.com/syon/awake/tree/heroku |
 | webpack    | Webpack    | https://github.com/syon/awake/tree/webpack |
 | harp       | Harp       | https://github.com/syon/awake/tree/harp |
 | electron   | Electron   | https://github.com/syon/awake/tree/electron |
@@ -25,9 +26,6 @@ add your static resources into `public` directory.
 
 
 ## deploy
-
-### GitHub Pages
-wercker (wercker.yml)
 
 ### Heroku
 
