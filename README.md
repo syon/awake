@@ -1,24 +1,27 @@
-AWAKE [![wercker status](https://app.wercker.com/status/219b82bc57e438e29fe947f92a275fcc/s/master "wercker status")](https://app.wercker.com/project/byKey/219b82bc57e438e29fe947f92a275fcc)
-=====
+# AWAKE
 
 syon's static site boilerplate.
 
-| branch     | with       | url    |
-|------------|------------|--------|
-| master     | -          | https://github.com/syon/awake |
-| heroku     | -          | https://github.com/syon/awake/tree/heroku |
-| webpack    | Webpack    | https://github.com/syon/awake/tree/webpack |
-| harp       | Harp       | https://github.com/syon/awake/tree/harp |
-| electron   | Electron   | https://github.com/syon/awake/tree/electron |
+| branch     | with       | url                                           |
+| ---------- | ---------- | --------------------------------------------- |
+| master     | -          | https://github.com/syon/awake                 |
+| heroku     | -          | https://github.com/syon/awake/tree/heroku     |
+| webpack    | Webpack    | https://github.com/syon/awake/tree/webpack    |
+| harp       | Harp       | https://github.com/syon/awake/tree/harp       |
+| electron   | Electron   | https://github.com/syon/awake/tree/electron   |
 | serverless | Serverless | https://github.com/syon/awake/tree/serverless |
 
+---
+
+<a href="https://www.netlify.com">
+  <img src="https://www.netlify.com/img/global/badges/netlify-color-accent.svg"/>
+</a>
 
 ## install
 
 ```bash
 $ npm install
 ```
-
 
 ## dev
 
@@ -28,13 +31,11 @@ $ npm start
 
 - http://localhost:5000
 
-
 ## prepare
 
 add your static resources into `public` directory.
 
-
 ## deploy
 
-- https://app.netlify.com/
-- New site from Git
+<!-- Markdown snippet -->
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/syon/awake)
