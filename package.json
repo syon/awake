@@ -13,9 +13,9 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
     "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0",
-    "@nuxtjs/axios": "^5.3.6"
+    "nuxt": "^2.6.2"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",
