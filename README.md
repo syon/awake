@@ -10,6 +10,7 @@ syon's static site boilerplate.
 | harp       | Harp       | https://github.com/syon/awake/tree/harp       |
 | electron   | Electron   | https://github.com/syon/awake/tree/electron   |
 | serverless | Serverless | https://github.com/syon/awake/tree/serverless |
+| nuxt-now   | Nuxt + Now | https://github.com/syon/awake/tree/nuxt-now   |
 
 ---
 
