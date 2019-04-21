@@ -1,6 +1,13 @@
 # awake
 
-> My groovy Nuxt.js project
+> Nuxt.js Universal on ZEIT Now v2
+
+
+## Info
+
+- [nuxt/now-builder: Now Builder for Nuxt.js](https://github.com/nuxt/now-builder)
+- [Nuxt.js Universal on ZEIT Now v2 - syon/til](https://syon.github.io/til/2019/04/21/nuxt-now-v2-error/)
+
 
 ## Build Setup
 
