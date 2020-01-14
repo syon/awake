@@ -36,3 +36,4 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 ## cf.
 
 - [Upgrade 4.x Guide - iView](https://www.iviewui.com/docs/update4-en)
+- [and design vue with nuxt js 2 less loader problem · Issue #234 · vueComponent/ant-design-vue](https://github.com/vueComponent/ant-design-vue/issues/234)

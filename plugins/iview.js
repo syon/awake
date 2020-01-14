@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import ViewUI from 'view-design'
-import locale from 'view-design/dist/locale/en-US' // Change locale, check node_modules/iview/dist/locale
+import locale from 'view-design/dist/locale/en-US'
+import './iview-theme.less'
 
 Vue.use(ViewUI, {
   locale
