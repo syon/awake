@@ -32,3 +32,7 @@ $ npm run generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+
+## cf.
+
+- [Upgrade 4.x Guide - iView](https://www.iviewui.com/docs/update4-en)
