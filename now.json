@@ -6,5 +6,8 @@
       "use": "@nuxtjs/now-builder",
       "config": {}
     }
-  ]
+  ],
+  "env": {
+    "BASE_URL": "https://awake.now.sh"
+  }
 }

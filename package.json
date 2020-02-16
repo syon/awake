@@ -5,11 +5,12 @@
   "author": "syon",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "now -A now.dev.json dev",
     "build": "nuxt build",
     "start": "nuxt start",
-    "now:dev": "now",
-    "now:prod": "now --prod"
+    "now-dev": "nuxt",
+    "now-deploy:dev": "now",
+    "now-deploy:prod": "now --prod"
   },
   "dependencies": {
     "nuxt": "^2.11.0",
