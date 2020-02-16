@@ -8,6 +8,10 @@
       <h2 class="subtitle">
         My amazing Nuxt.js project
       </h2>
+      <p>
+        <span>process.env.BASE_URL:</span>
+        <code>{{ baseUrl }}</code>
+      </p>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">
           Documentation
@@ -30,6 +34,11 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
+  },
+  computed: {
+    baseUrl() {
+      return process.env.BASE_URL
+    }
   }
 }
 </script>

@@ -7,7 +7,9 @@
       "config": {}
     }
   ],
-  "env": {
-    "BASE_URL": "https://awake.now.sh"
+  "build": {
+    "env": {
+      "BASE_URL": "https://awake.now.sh"
+    }
   }
 }
